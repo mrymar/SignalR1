@@ -4,7 +4,7 @@ $.connection.hub.start()
 		$.connection.myHub.server.announce("helllo");
 		console.log("worked.");
 	})
-	.fail(function() { });
+	.fail(function() {  });
 
 $.connection.myHub.client.announce = function(message) {
 	console.log(message);
